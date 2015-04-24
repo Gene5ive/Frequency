@@ -2,21 +2,20 @@ class String
 
   define_method(:frequency) do
 
-    #take a word input form a user
-    #iterate through a string looking for the word
-    #count how many times the wod exists
-    #return the result to the user
+    bound_input = self
 
-    input = self
+    unbound_input = bound_input.split(',')
+
+    word = unbound_input[0]
+
+    string = unbound_input[1]
+
+    string = string.split
 
     counter = 0
 
-    string = "If I ever find a finder I might find that it is found."
-
-    split_string = string.split
-
-      split_string.each do |word|
-        if word == input
+      string.each do |w|
+        if w == word
           counter +=1
         end
       end
