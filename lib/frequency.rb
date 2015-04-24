@@ -14,12 +14,12 @@ class String
 
     counter = 0
 
-      string.each do |w|
-        if w == word
-          counter +=1
-        end
+    string.each do |w|
+      if w == word
+        counter += 1
       end
+    end
 
-    counter
+    "There are #{counter} instances of that word."
   end
 end
