@@ -20,6 +20,6 @@ class String
       end
     end
 
-    "There are #{counter} instances of that word."
+    "There's #{counter} instance(s) of that word."
   end
 end
