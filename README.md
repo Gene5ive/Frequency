@@ -8,7 +8,11 @@ https://github.com/Gene5ive/Frequency
 
 https://damp-river-5497.herokuapp.com/
 
-To run locally enter 'ruby app.rb' from root directory and visit 'localhost:4567'
+To run locally enter
+``
+$ ruby app.rb
+``
+from root directory and visit 'localhost:4567'
 
 Root folder includes:
 ```
